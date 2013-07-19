@@ -8,12 +8,20 @@ Template:       twentytwelve
 Version:        0.1.0
 */
 @import url("../twentytwelve/style.css");
-#primary .gallery-icon img {box-shadow:none;border-color:transparent;}
+/* This removes the borders from around thumbnails and full images, providing a cleaner look. */
+#primary .gallery-icon img {
+	box-shadow:none;border-color:transparent;
+}
+/* This removes the meta-data display from individual posts. */
 .entry-meta
 	{
 		display: none;
 	}
-.home .entry-header .comments-link , .category .entry-header .comments-link {display:none;}
+/* This removes all the extra links and info from below a post. */
+.home .entry-header .comments-link , .category .entry-header .comments-link {
+	display:none;
+}
+/* The below styling was copied from "http://blog.teamtreehouse.com/how-to-build-a-wordpress-photography-child-theme", but may have been slightly modified from the original code. */
 .site-header {
 	border-bottom: 4px #ededed double;
 }
@@ -101,8 +109,11 @@ footer .date {
 		display: none;
 	}
 }
+/* This removes the "Powered by Wordpress" comment on the bottom of every page */
 .site-info {
    display: none;
 }
-.form-allowed-tags{
-display:none;}
+/* This removes the standard Wordpress instructions typically displayed under the comments box */
+.form-allowed-tags {
+	display:none;
+}
