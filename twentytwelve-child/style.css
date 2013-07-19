@@ -21,7 +21,7 @@ Version:        0.1.0
 .home .entry-header .comments-link , .category .entry-header .comments-link {
 	display:none;
 }
-/* The below styling was copied from "http://blog.teamtreehouse.com/how-to-build-a-wordpress-photography-child-theme", but may have been slightly modified from the original code. */
+/* The below styling was copied from "http://blog.teamtreehouse.com/how-to-build-a-wordpress-photography-child-theme", but may have been slightly modified from the original code. It works in conjunction with a home.php and single.php file. */
 .site-header {
 	border-bottom: 4px #ededed double;
 }
@@ -118,6 +118,6 @@ footer .date {
 	display:none;
 }
 /* This allows author comments to be highlighted, and must be used in conjuntion with the comments.php file in the child theme*/
-.authcomment {
+/*.authcomment {
 	background-color: #B3FFCC !important;
-}
+}*/
