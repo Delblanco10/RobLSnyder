@@ -13,4 +13,91 @@ Version:        0.1.0
 	{
 		display: none;
 	}
-.home .entry-header .comments-link , .category .entry-header .comments-link {display:none;}	
+.home .entry-header .comments-link , .category .entry-header .comments-link {display:none;}
+.site-header {
+	border-bottom: 4px #ededed double;
+}
+.home .site-content {
+	width: 100%
+}
+.site-content article {
+	border: none;
+	margin: 0;	
+}
+.site-content .photo-entry {	
+	float: left;	
+	margin-bottom: 10px;
+	position: relative;	
+	width: 30%;	
+	margin-right: 3%
+}
+.photo-entry:last-child() {
+	margin-right: 0	
+}
+.photo-entry footer {
+	background: #000;
+	bottom: 26px;
+	font-size: 12px;	
+	display: none;
+	left: 0;	
+	padding: 5px; 
+	position: absolute;			
+}
+.photo-entry a:hover footer {
+	display: block;
+}
+.photo-entry h2 {
+	color: #fff;
+	font-weight: normal;
+	margin-bottom: 3px;	
+}
+.photo-entry p {
+	color: #888
+}
+.photo-navigation p {
+	clear: none;	
+	float: left;
+	width: 48%;	
+}
+.photo-navigation .newer-photos {
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+}
+.photo-detail h1 {
+	font-size: 22px;
+	margin: 0 0 10px;
+}
+.photo-detail p {
+	margin: 10px 0;
+}
+.date {
+	color: #888;
+	font-size: 10px;	
+	font-style: italic;
+}
+footer .date {
+	font-style: normal
+}
+.nav-single {	
+	border-bottom: 4px #ededed double;
+	border-top: 4px #ededed double;
+	display: block;	
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+	padding: 20px 0 10px;
+}
+
+@media screen and (max-width: 420px) {
+	.site-content .photo-entry {
+		width: 48%;
+		margin: 0 2% 0px 0;
+		padding: 4px 0;
+	}
+}
+@media screen and (max-device-width : 760px) {
+	.photo-entry a:hover footer {
+		display: none;
+	}
+}
