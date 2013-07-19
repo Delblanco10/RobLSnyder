@@ -13,4 +13,4 @@ Version:        0.1.0
 	{
 		display: none;
 	}
-		
+.home .entry-header .comments-link , .category .entry-header .comments-link {display:none;}	
