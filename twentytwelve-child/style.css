@@ -9,5 +9,8 @@ Version:        0.1.0
 */
 @import url("../twentytwelve/style.css");
 #primary .gallery-icon img {box-shadow:none;border-color:transparent;}
-
+.entry-meta
+	{
+		display: none;
+	}
 		
