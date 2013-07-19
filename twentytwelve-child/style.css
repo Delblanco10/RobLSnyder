@@ -117,3 +117,7 @@ footer .date {
 .form-allowed-tags {
 	display:none;
 }
+/* This allows author comments to be highlighted, and must be used in conjuntion with the comments.php file in the child theme*/
+.authcomment {
+	background-color: #B3FFCC !important;
+}
