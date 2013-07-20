@@ -38,7 +38,7 @@
 
 
 		<?php $header_image = get_header_image();
-		if ( ! empty( $header_image ) ) : ?>
+		if ( ! empty( $header_image ) && is_home() ) : ?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
 		<?php endif; ?>
 		
