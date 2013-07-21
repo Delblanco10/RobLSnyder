@@ -117,4 +117,8 @@ footer .date {
 .form-allowed-tags {
 	display:none;
 }
+/* This removes the archive header. */
+.archive-header {
+    display: none;
+}
 
