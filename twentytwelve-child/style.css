@@ -109,7 +109,7 @@ footer .date {
 		display: none;
 	}
 }
-/* This removes the "Powered by Wordpress" comment on the bottom of every page */
+/* This removes the "Powered by Wordpress" comment on the bottom of every page. */
 .site-info {
    display: none;
 }
