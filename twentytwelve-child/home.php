@@ -24,7 +24,7 @@
 	<?php else : ?>
 
 		<!-- Message if there are no photos -->			
-		<p><?php _e( 'Please check back soon for more photos!', 'twentytwelve' ); ?></p>
+		<p><?php _e( 'There should be a photo here! (Let me get back to you.)', 'twentytwelve' ); ?></p>
 
 	<?php endif; ?>
 	<!-- End loop -->
