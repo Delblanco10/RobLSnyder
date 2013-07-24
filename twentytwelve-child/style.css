@@ -146,5 +146,8 @@ width: 87% !important;
 float: left;
 width: 83% !important;
 }
-
+/* This controls the top margin of the site header. */
+body .site {
+margin-top: .80rem;
+}
 
