@@ -48,7 +48,7 @@ Version:        0.1.0
 	font-size: 12px;	
 	display: none;
 	left: 0;	
-	padding: 5px; 
+	padding: 0px; 
 	position: absolute;			
 }
 .photo-entry a:hover footer {
@@ -121,4 +121,13 @@ footer .date {
 .archive-header {
     display: none;
 }
+/* This controls the photo header and title in category pages.*/
+.entry-header .entry-title a {
+color: black;
+font-family: times New Roman;
+font-size: 26px;
+text-decoration: none;
+}
+
+
 
