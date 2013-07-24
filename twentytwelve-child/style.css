@@ -136,6 +136,15 @@ max-width: 87% !important;
 .widget-area {
 width: 13% !important;
 }
-
+/* This controls the width of the content body. */
+.wrapper {
+margin-left: -10px !important;
+width: 87% !important;
+}
+/* This controls the width of the content. */
+.site-content {
+float: left;
+width: 83% !important;
+}
 
 
