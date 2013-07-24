@@ -132,6 +132,10 @@ text-decoration: none;
 body .site {
 max-width: 87% !important;
 }
+/* This controls the width of the sidebar. */
+.widget-area {
+width: 13% !important;
+}
 
 
 
