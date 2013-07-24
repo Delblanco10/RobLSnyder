@@ -128,6 +128,10 @@ font-family: times New Roman;
 font-size: 26px;
 text-decoration: none;
 }
+/* This controls the width of the background.*/
+body .site {
+max-width: 87% !important;
+}
 
 
 
