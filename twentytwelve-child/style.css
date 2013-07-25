@@ -8,10 +8,11 @@ Template:       twentytwelve
 Version:        0.1.0
 */
 @import url("../twentytwelve/style.css");
-/* This removes the borders from around thumbnails and full images, providing a cleaner look. */
+/* This removes the borders from around thumbnails and full images, providing a cleaner look.
 #primary .gallery-icon img {
-	box-shadow:none;border-color:transparent;
-}
+	box-shadow: none;
+	border-color: transparent;
+}*/
 /* This removes the meta-data display from individual posts. */
 .entry-meta
 	{
@@ -40,7 +41,7 @@ Version:        0.1.0
 	margin-right: 3%
 }
 .photo-entry:last-child() {
-	margin-right: 0	
+	margin-right: 0;
 }
 .photo-entry footer {
 	background: #000;
@@ -123,31 +124,53 @@ footer .date {
 }
 /* This controls the photo header and title in category pages.*/
 .entry-header .entry-title a {
-color: black;
-font-family: times New Roman;
-font-size: 26px;
-text-decoration: none;
+	color: black;
+	font-family: times New Roman;
+	font-size: 26px;
+	text-decoration: none;
 }
 /* This controls the width of the background.*/
 body .site {
-max-width: 87% !important;
+	max-width: 100% !important;
 }
-/* This controls the width of the sidebar. */
+/* This controls the width of the sidebar.*/
 .widget-area {
-width: 13% !important;
+	width: 30.041666667% !important;
 }
-/* This controls the width of the content body. */
+/* This controls the width of the content body.*/
 .wrapper {
-margin-left: -10px !important;
-width: 87% !important;
+	margin-left: 20px !important;
+	width: 95% !important;
 }
-/* This controls the width of the content. */
+/* This controls the width of the content.*/
 .site-content {
-float: left;
-width: 83% !important;
+	float: left;
+	width: 65% !important;
 }
 /* This controls the top margin of the site header. */
 body .site {
-margin-top: .80rem;
+	margin-top: -8px;
+}
+/* This controls the styling of the main menu.*/
+.main-navigation li a:hover {
+	color: #000000;
+	background: #A0A0A0;
+	border-radius: 100%;
+}
+
+.main-navigation li a {
+	color: #000000;
+}
+/* This controls the styling of the main menu. */
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: inline-block !important;
+    text-align: center;
+    width: 100%;
 }
 
