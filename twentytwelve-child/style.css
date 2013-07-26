@@ -131,7 +131,7 @@ footer .date {
 }
 /* This controls the width of the background.*/
 body .site {
-	max-width: 100% !important;
+	max-width: 85% !important;
 }
 /* This controls the width of the sidebar.*/
 .widget-area {
@@ -154,12 +154,12 @@ body .site {
 /* This controls the styling of the main menu.*/
 .main-navigation li a:hover {
 	color: #000000;
-	background: #A0A0A0;
-	border-radius: 100%;
+	/*background: #A0A0A0;*/
+	/*border-radius: 100%;*/
 }
 
 .main-navigation li a {
-	color: #000000;
+	color: #686868;
 }
 /* This controls the styling of the main menu. */
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
@@ -173,4 +173,3 @@ body .site {
     text-align: center;
     width: 100%;
 }
-
