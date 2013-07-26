@@ -159,7 +159,7 @@ body .site {
 }
 
 .main-navigation li a {
-	color: #686868;
+	color: #A8A8A8;
 }
 /* This controls the styling of the main menu. */
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
@@ -172,4 +172,9 @@ body .site {
     display: inline-block !important;
     text-align: center;
     width: 100%;
+}
+/* Center the header image. */
+.header-image {
+    display block;
+    margin: 0 auto 2em;
 }
