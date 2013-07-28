@@ -27,7 +27,7 @@ Version:        0.1.0
 	border-bottom: 4px #ededed double;
 }
 .home .site-content {
-	width: 100%
+	width: 100%;
 }
 .site-content article {
 	border: none;
@@ -35,7 +35,7 @@ Version:        0.1.0
 }
 .site-content .photo-entry {	
 	float: left;	
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	position: relative;	
 	width: 30%;	
 	margin-right: 3%
@@ -175,6 +175,7 @@ body .site {
 }
 /* Center the header image. */
 .header-image {
-    display block;
-    margin: 0 auto 2em;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
 }
